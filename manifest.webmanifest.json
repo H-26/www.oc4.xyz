@@ -1,9 +1,9 @@
 {
   "background_color": "#0058a0",
-  "description": "MCSniperPY Website",
+  "description": "Outlawcraft SMP Website",
   "display": "standalone",
-  "name": "MCSniperPY",
-  "short_name": "MCsPY",
+  "name": "Outlawcraft SMP",
+  "short_name": "OCS4",
   "start_url": "/",
   "icons": [
   	{

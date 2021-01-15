@@ -1,3 +1,3 @@
-# MCsniperPY website
+# Outlawcraft SMP website
 
-This is a work in progress ⚠
+Based off of MCSniperPY's website

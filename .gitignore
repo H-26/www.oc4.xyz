@@ -1,0 +1,7 @@
+docs
+# Releasing eventually
+
+.idea
+.vscode
+assets/Thumbs.db
+

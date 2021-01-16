@@ -270,12 +270,12 @@ footer {
 	width: 96%;
 	padding-top: 7px;
 }
-#sidebar nav ul li {
-	text-align: center;
-}
 #mainwrapper #content #sidebar {
 	/* sidebar */
 	padding-bottom: 0px;
+}
+#sidebar nav ul li {
+	text-align: center;
 }
 #content .notOnDesktop {
 	/* Search box shown only in mobile and tablet view */
@@ -287,10 +287,6 @@ footer {
 #content .notOnDesktop input {
 	width: 80%;
 	text-align: center;
-}
-#content #mainContent h3 {
-	/* Title under maincontent, if any */
-	font-size: 14px;
 }
 #content footer article {
 	/* Each foter article */

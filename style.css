@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Minecraft';
-    src: url('./assets/Minecraft.ttf');	
+    src: url('./assets/Minecraftia-Regular.ttf');	
 }
 
 html {
@@ -10,7 +10,7 @@ html {
     background: url("./assets/background.png"), linear-gradient(90deg, rgba(99,137,207,1) 0%, rgba(155,89,155,1) 100%);;
 	background-repeat: no-repeat, repeat;
 	background-position: top, center;
-	background-size: 100vw, 100%;
+	background-size: 100vw;
 }
 
 ul {
@@ -50,6 +50,9 @@ h1 {
 		width: 45vh;
 		max-height: 80vw; /* You might want to change these to 70vw, I made them 80vh so they are in line with the defualts */
 		max-width: 80vw;
+	}
+	.title {
+        font-size: 6vw;
 	}
 }
 
@@ -127,13 +130,13 @@ h1 {
 li img {
     width: 10vh;
     height: 10vh;
-	max-height: 20vw;
-	max-width: 20vw;
+	max-height: 15vw;
+	max-width: 15vw;
     scale: 100%;
     color: white;
     fill: currentColor;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 1vw;
+    padding-left: 1vw;
     transition: transform 350ms ease-in-out;
 }
 
@@ -147,7 +150,7 @@ li img:hover {
 }
   
 .tooltip span {
-	font-size: 1.7vh;
+	font-size: 1vh;
     opacity: 0;
     transition: opacity 250ms ease-in-out;
     /* width: 120px; */
@@ -155,7 +158,7 @@ li img:hover {
     color: #000;
     text-align: center;
     border-radius: 1.1vh;
-    padding: 1vh 0;
+    padding: 0.75vh 0 0 0;
   
     /* Position the tooltip */
     position: absolute;

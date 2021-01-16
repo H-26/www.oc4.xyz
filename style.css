@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./assets/Minecraft.ttf');	
+}
 
 html {
-    font-family: 'Roboto Mono', monospace;
+    font-family: Minecraft;
     margin: 0;
     padding: 0;
     background: url("./assets/background.png"), linear-gradient(90deg, rgba(99,137,207,1) 0%, rgba(155,89,155,1) 100%);;
@@ -26,7 +29,7 @@ h1 {
     color: white;
     font-weight: lighter;
     top: 0px;
-	font-size: 3vh
+	font-size: 4vh
 }
 
 .logo {
@@ -52,7 +55,7 @@ h1 {
 
 @media screen and (max-width: 450px) {
     .title {
-        font-size: 5vw;
+        font-size: 6vw;
 	}
 	.smpstatus {
 		position: absolute; 
@@ -118,6 +121,7 @@ h1 {
 	display: flex;
 	margin: 0;
 	justify-content: center;
+	padding-bottom: 10px
 }
 
 li img {
